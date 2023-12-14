@@ -1,8 +1,10 @@
-import React from 'react'
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import './Email.scss';
 
-function Email() {
+function Email({darkMode}) {
   return (
-    <div>Email</div>
+    <div className={`email dark-mode-${!darkMode}`}>Email</div>
   )
 }
 

@@ -1,8 +1,10 @@
-import React from 'react'
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import './Projects.scss';
 
-function Projects() {
+function Projects({darkMode}) {
   return (
-    <div>Projects</div>
+    <div className={`projects dark-mode-${!darkMode}`}><p>Projects</p></div>
   )
 }
 

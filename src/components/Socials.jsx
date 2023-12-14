@@ -1,8 +1,10 @@
-import React from 'react'
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import './Socials.scss';
 
-function Socials() {
+function Socials({darkMode}) {
   return (
-    <div>Socials</div>
+    <div className={`socials dark-mode-${!darkMode}`}>Socials</div>
   )
 }
 

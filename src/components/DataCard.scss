@@ -1,0 +1,33 @@
+.data-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .data-card-section{
+        height: 30vh;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        
+        .data-card-socials{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a{
+                margin-right: 20px;
+            }
+            button{
+                border: 0;
+                background-color: transparent;
+            }
+            :hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
